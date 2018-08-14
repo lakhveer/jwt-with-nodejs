@@ -1,0 +1,28 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-joi-validation": "^0.2.1",
+    "joi": "^13.5.2",
+    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken-refresh": "^5.7.0",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3",
+    "npm": "^6.3.0"
+  }
+}
