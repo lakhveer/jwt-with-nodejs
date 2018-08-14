@@ -106,7 +106,7 @@ module.exports = {
                 }else {
                     if(res==null){
                         return resolve(commonFunctions.error('test aa....'));
-                       /* body.origanal_password = body.password;
+                        body.origanal_password = body.password;
                         const user = new User(body);
                         user.save((error, success)=>{
                             if(err){
@@ -114,7 +114,7 @@ module.exports = {
                             }else{
                                 return resolve(commonFunctions.success('User Inserted'));
                             }
-                        }); */
+                        }); 
                     }else{
                         return resolve(commonFunctions.error('Email '+ body.email+ ' already exist!'));
                     }
